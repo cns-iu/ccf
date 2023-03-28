@@ -35,13 +35,12 @@ export class YoutubeModelComponent implements OnInit {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize() {
-    this.playerSize();
+  onResize(event: { target: { innerWidth: number; }; }) {
+    this.isMobile = event.target.innerWidth <= 428;
   }
-
+  
   playerSize() {
     this.width = window.innerWidth * 0.8;
     this.height = this.width * 0.5625;
-    
   }
 }
