@@ -42,5 +42,6 @@ export class YoutubeModelComponent implements OnInit {
   playerSize() {
     this.width = window.innerWidth * 0.8;
     this.height = this.width * 0.5625;
+    
   }
 }
