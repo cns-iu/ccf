@@ -1,6 +1,6 @@
 twoDimHeaderCardDetails:
 - image: assets/images/two_dim_header.svg
-  title: CCF 2D Functional Tissue Unit (FTU) Illustrations
+  title: 2D Functional Tissue Unit (FTU) Illustrations
   subtitle: Open source 2D reference illustrations of Functional Tissue Units (FTUs) mapped to ASCT+B tables used for single cell data exploration
 
 
@@ -29,8 +29,10 @@ disclaimer:
 
 
 sopData:
-- urls: ' Style Guide: HuBMAP 2D Functional Tissue Unit (FTU) Illustrations'
-  href: https://zenodo.org/record/6703108/files/SOP_%20Creating%202D%20Illustrations%20for%20Functional%20Tissue%20Units.pdf
+  title: Standard Operating Procedures (SOP)
+  href:
+    - urls: ' Style Guide: HuBMAP 2D Functional Tissue Unit (FTU) Illustrations'
+      href: https://zenodo.org/record/6703108/files/SOP_%20Creating%202D%20Illustrations%20for%20Functional%20Tissue%20Units.pdf
 
 versionData:
 - release: 4th HRA Release (v1.3), December 2022
@@ -302,3 +304,34 @@ organInfo:
       url: https://doi.org/10.48539/HBM794.PKVD.274
       svg: https://hubmapconsortium.github.io/ccf-releases/v1.2/2d-ftu/thymus_lobule_thymus.svg
       png: https://hubmapconsortium.github.io/ccf-2d-reference-object-library/v1.0/png/thymus_lobule_thymus.png
+
+headerInfo:
+  - columnDef: FTU Label in Uberon
+    header: FTU Label in Uberon
+    cell: "`${element['FTU Label in Uberon']}`"
+    alignment: start
+  - columnDef: FTU ID in Uberon
+    header: FTU ID in Uberon
+    cell: "`${element['FTU ID in Uberon']}`"
+    alignment: start
+  - columnDef: CT Label in CL
+    header: CT Label in CL
+    cell: "`${element['CT Label in CL']}`"
+    alignment: start
+  - columnDef: CT ID in CL
+    header: CT ID in CL
+    cell: "`${element['CT ID in CL']}`"
+    alignment: start
+  - columnDef: CT Label in 2D Object
+    header: CT Label in 2D Object
+    cell: "`${element['CT Label in 2D Object']}`"
+    alignment: start
+    isTotalRequired: true
+  - columnDef: "#CT"
+    header: "#CT"
+    cell: "`${element['#CT']}`"
+    alignment: end
+  - columnDef: "#AS"
+    header: "#AS"
+    cell: "`${element['#AS']}`"
+    alignment: end

@@ -1,6 +1,6 @@
 headerData:
 - image: assets/images/three_dim_library.svg
-  title: CCF 3D Reference Object Library
+  title: 3D Reference Object Library
   subtitle: Open source 3D organs crosswalked to ASCT+B tables used for tissue registration and exploration
 
 overviewData:
@@ -29,14 +29,16 @@ versionData:
   version: "1.0"
 
 sopData:
-- urls: 'SOP: 3D Reference Object Approval'
-  href: https://doi.org/10.5281/zenodo.5944196
-- urls: 'SOP: Using 3D Reference Objects'
-  href: https://doi.org/10.5281/zenodo.5639651
-- urls: 'SOP: Using the CCF Registration User Interface'
-  href: https://doi.org/10.5281/zenodo.5575776
-- urls: 'SOP: Assigning RUI Data to Multiple Tissue Blocks'
-  href: https://doi.org/10.5281/zenodo.5746143
+  title: Standard Operating Procedures (SOP)
+  href:
+    - urls: 'SOP: 3D Reference Object Approval'
+      href: https://doi.org/10.5281/zenodo.5944196
+    - urls: 'SOP: Using 3D Reference Objects'
+      href: https://doi.org/10.5281/zenodo.5639651
+    - urls: 'SOP: Using the CCF Registration User Interface'
+      href: https://doi.org/10.5281/zenodo.5575776
+    - urls: 'SOP: Assigning RUI Data to Multiple Tissue Blocks'
+      href: https://doi.org/10.5281/zenodo.5746143
 
 termsOfUseData:
 - heading: Terms Of Use
@@ -229,7 +231,7 @@ threeDimOrganInfo:
       url: https://hubmapconsortium.github.io/ccf-releases/v1.2/docs/ref-organs/kidney-female-right.html
       alt: The kidney, right, female
       threeDimImage: https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Kidney_R.glb
-    - name: Male
+    - name: Male, L
       image:
       expandedImage:
       url: https://hubmapconsortium.github.io/ccf-releases/v1.3/docs/ref-organs/kidney-male-left.html
