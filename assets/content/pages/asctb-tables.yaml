@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cns-iu/humanatlas.io/main/pages.schema.json
+
 - type: header
   headerCard:
   - image: assets/images/asctb_table.svg
@@ -10,10 +12,6 @@
     route: 'v1.4'
     routeText: '5th Release Notes.'
     emoji: '🎉'
-    
-- type: announcement
-  announcementCard:
-  - message: "Warning: DOI registration in progress. HRA v1.4 DOI URLs will not work until further notice."
 
 - type: margin
   bottom: 2.5rem
@@ -25,11 +23,11 @@
 
 - type: sop-links
   sopData:
-    title: Standard Operating Procedures (SOP)
+    sopTitle: Standard Operating Procedures (SOP)
     href:
-    - urls: 'SOP: Authoring Anatomical Structures, Cell Types, and Biomarkers (ASCT+B) Tables'
+    - title: 'SOP: Authoring Anatomical Structures, Cell Types, and Biomarkers (ASCT+B) Tables'
       href: https://zenodo.org/record/7382751#.ZFPCXXbMK3A
-    - urls: 'SOP: ASCT+B Table Communications'
+    - title: 'SOP: ASCT+B Table Communications'
       href: https://zenodo.org/record/5639623#.ZFPCYHbMK3A
 
 - type: margin
@@ -40,7 +38,8 @@
   - heading: Existing Tables
     descriptions: The below table lists for each organ the number of anatomical structures (#AS), the number of cell types (#CT), the number of biomarkers (#B), the number of <i>part_of</i> relationships between AS, the number of located_in links between CT and AS, and the number of CT and B (i.e., which B characterize a CT).
 
-- type: tableVersion
+- type: table-version
+  versionChooserDisabled: false
   versionData:
   - release: 5th HRA Release (v1.4), June 2023
     file: release5.csv
@@ -67,6 +66,13 @@
         ${element['Organ']}
       </a>`
     isTotalRequired: true
+    alignment: start
+  - columnDef: csv
+    header: Download ASCT+B Table
+    cell: |
+      `<a class="cell-link" href="${element['csv'] || 'TODO:Please add a csv column to this.csv!'}">
+        CSV
+      </a>`
     alignment: start
   - columnDef: 'tableVersion'
     header: 'Table Version'

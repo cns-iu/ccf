@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cns-iu/humanatlas.io/main/pages.schema.json
+
 - type: header
   headerCard:
     - image: assets/images/two_dim_header.svg
@@ -10,10 +12,6 @@
       route: "v1.4"
       routeText: "5th Release Notes."
       emoji: "🎉"
-
-- type: announcement
-  announcementCard:
-    - message: "Warning: DOI registration in progress. HRA v1.4 DOI URLs will not work until further notice."
 
 - type: margin
   bottom: 2.5rem
@@ -42,9 +40,9 @@
 
 - type: sop-links
   sopData:
-    title: Standard Operating Procedures (SOP)
+    sopTitle: Standard Operating Procedures (SOP)
     href:
-      - urls: "Style Guide: Human Reference Atlas 2D Functional Tissue Unit (FTU) Illustrations"
+      - title: "Style Guide: Human Reference Atlas 2D Functional Tissue Unit (FTU) Illustrations"
         href: https://zenodo.org/record/6703377
 
 - type: margin
@@ -58,6 +56,7 @@
     margin-bottom: 2.5rem
 
 - type: organ-version
+  isMultiRow: true
   tableRequired: true
   versionData:
     - release: 5th HRA Release (v1.4), June 2023
@@ -179,7 +178,7 @@
               ai: https://hubmapconsortium.github.io/ccf-releases/v1.3/2d-ftu/2d-ftu-liver-liver-lobule.ai
               png: https://hubmapconsortium.github.io/ccf-releases/v1.3/2d-ftu/2d-ftu-liver-liver-lobule.png
         - name: Lung
-          image: assets/images/lungs.svg
+          image: assets/images/lung.svg
           tissueData:
             - name: Bronchial Submucosal Gland
               image: https://hubmapconsortium.github.io/ccf-releases/v1.3/2d-ftu/2d-ftu-lung-bronchial-submucosal-gland.svg
@@ -506,17 +505,53 @@
 
 - type: page-data
   pageData:
-    - heading: 2D Reference Functional Tissue Unit (FTU) Library Objects
+    - heading: Download Functional Tissue Unit Illustrations
       descriptions: |
-        <a href="https://github.com/hubmapconsortium/ccf-releases/tree/main/v1.2/2d-ftu">Download v1.0 FTUs</a> in SVG format.
+        SVG files may be programmatically linked to data sets and used interactively. They may be edited using a combination of illustration and text editor software programs. 
+        SVG files may not display correctly until viewed in a browser window. 
+        AI files may be edited in Adobe Illustrator, where users can change labels, colors, and illustration components as desired.
 
-        <a href="https://github.com/hubmapconsortium/ccf-releases/tree/main/v1.3/2d-ftu" target="_blank">Download v1.1 FTUs</a> in SVG format. SVG files may be programmatically linked to data sets and used interactively. They may be edited using a combination of illustration and text editor software programs. SVG files may not display correctly until viewed in a browser window.
+- type: download-ftu
+  versions:
+    - release: '5th HRA Release (v1.4), June 2023'
+      version: '5'
+    - release: '4th HRA Release (v1.3), December 2022'
+      version: '4'
+    - release: '3rd HRA Release (v1.2), June 2022'
+      version: '3'
+  downloadIcon: file_download
+  versionedData:
+    - version: "3"
+      rows:
+        - label: 2D Models Crosswalk
+          links:
+            - label: CSV
+              link: https://hubmapconsortium.github.io/ccf-releases/v1.2/2d-ftu/ASCT-B_ftu_2D_illustration_mapping.csv
+    - version: "4"
+      rows:
+        - label: 2D Models Crosswalk
+          links: 
+            - link: https://hubmapconsortium.github.io/ccf-releases/v1.3/2d-ftu/asct-b-2d-models-mapping.csv
+              label: CSV
+    - version: "5"
+      rows:
+        - label: 2D Models Crosswalk
+          links: 
+            - link: https://hubmapconsortium.github.io/ccf-releases/v1.4/2d-ftu/asct-b-2d-models-crosswalk.csv
+              label: CSV
+- type: margin
+  bottom: 3.5rem
 
-        <a href="https://github.com/hubmapconsortium/ccf-releases/tree/main/v1.3/2d-ftu" target="_blank">Download v1.1 FTUs</a> in AI Format. AI files may be edited in Adobe Illustrator, where users can change labels, colors, and illustration components as desired.
+- type: page-data
+  pageData:
+    - heading: Organ Icon Downloads
+      descriptions: Human Reference Atlas organ icons are available freely on GitHub.
+  styles:
+    margin-bottom: 1rem
 
-        <a href="https://doi.org/10.48539/HBM984.MZSG.873" target="_blank">ASCT-B to 2D FTU mapping v1.0</a> in CSV format.
-
-        <a href="https://github.com/hubmapconsortium/ccf-releases/tree/main/v1.3/2d-ftu" target="_blank">ASCT-B to 2D FTU</a> mapping v1.1 in CSV format.
+- type: button
+  text: HRA Organ Icons GitHub Repository
+  url: https://github.com/cns-iu/md-icons/tree/main/other-icons/organs
 
 - type: page-data
   pageData:
