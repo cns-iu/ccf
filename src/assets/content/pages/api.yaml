@@ -41,10 +41,9 @@
         * JavaScript:
           * Basic Usage: <https://observablehq.com/@cns-iu/ccf-api-documentation-javascript>
           * Use case walkthrough: <https://observablehq.com/@cns-iu/ccf-api-usecase-javascript>
-          * CCF GRLC SPARQL Queries to Ubergraph:
-      * CCF GRLC: http://grlc.io/api/hubmapconsortium/ccf-grlc/ccf/
-           * What is Ubergraph?: https://icbo-conference.github.io/icbo2022/slides/Balhoff-Ubergraph-ICBO2022.pdf
-           * Ubergraph GitHub repository: https://github.com/INCATools/ubergraph
+      * grlc APIs (SPARQL queries plus OpenAPI endpoints [more info](http://grlc.io/)):
+          * grlc queries using the [CCF-API](https://ccf-api.hubmapconsortium.org/#/operations/sparql-post) SPARQL endpoint: <http://grlc.io/api/hubmapconsortium/ccf-grlc/ccf/>
+          * grlc queries using the [Ubergraph](https://github.com/INCATools/ubergraph) SPARQL endpoint: <http://grlc.io/api/hubmapconsortium/ccf-grlc/ubergraph/>
 
 - type: button
   text: Use the Human Reference Atlas APIs
