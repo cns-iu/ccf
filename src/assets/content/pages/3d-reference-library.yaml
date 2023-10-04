@@ -155,7 +155,7 @@
               alt: The kidney, left, female
               threeDimImage: https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Kidney_L.glb
             - name: Female, R
-              url: https://cdn.humanatlas.io/ccf-releases/v1.2/docs/ref-organs/kidney-female-right.html
+              url: https://cdn.humanatlas.io/ccf-releases/v1.4/docs/ref-organs/3d-vh-f-kidney-r.html
               alt: The kidney, right, female
               threeDimImage: https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Kidney_R.glb
             - name: Male, L
