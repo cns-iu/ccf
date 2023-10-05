@@ -420,7 +420,7 @@
           styles:
             margin-bottom: 1rem
         - type: button
-          text: "Preview: Scrollytelling Series"
+          text: 'Preview: Scrollytelling Series'
           url: https://hubmapconsortium.github.io/hra-previews/pilots/pilot4.html
           styles:
             margin-bottom: 1rem
@@ -431,7 +431,7 @@
           styles:
             margin-bottom: 1rem
         - type: button
-          text: "Preview: Comparing Tabula Sapiens to the Human Reference Atlas"
+          text: 'Preview: Comparing Tabula Sapiens to the Human Reference Atlas'
           url: https://hubmapconsortium.github.io/hra-previews/pilots/pilot5.html
           styles:
             margin-bottom: 1rem
@@ -442,7 +442,7 @@
           styles:
             margin-bottom: 1rem
         - type: button
-          text: "Preview: FTU Segmentation"
+          text: 'Preview: FTU Segmentation'
           url: https://hubmapconsortium.github.io/hra-previews/pilots/pilot6.html
           styles:
             margin-bottom: 1rem
@@ -453,7 +453,7 @@
           styles:
             margin-bottom: 1rem
         - type: button
-          text: "Preview: CCF Tissue Block Annotation: Mesh-Level Collision Detection"
+          text: 'Preview: CCF Tissue Block Annotation: Mesh-Level Collision Detection'
           url: https://hubmapconsortium.github.io/hra-previews/pilots/pilot7.html
         - type: divider
           styles:
