@@ -2,33 +2,33 @@
 
 - type: header
   headerCard:
-  - image: assets/images/rui.svg
-    title: Registration User Interface (RUI)
-    subtitle: An interactive tool for registering tissue blocks spatially and annotating them semantically using ASCT+B Table terms
+    - image: assets/images/rui.svg
+      title: Registration User Interface (RUI)
+      subtitle: An interactive tool for registering tissue blocks spatially and annotating them semantically using ASCT+B Table terms
 
 - type: announcement
   announcementCard:
-  - message: "The 5th Release of the Human Reference Atlas (v1.4) is now available! See what's new in HRA v1.4 in "
-    route: 'v1.4'
-    routeText: '5th Release Notes.'
-    emoji: '🎉'
+    - message: "The 5th Release of the Human Reference Atlas (v1.4) is now available! See what's new in HRA v1.4 in "
+      route: 'v1.4'
+      routeText: '5th Release Notes.'
+      emoji: '🎉'
 
 - type: margin
   bottom: 2.5rem
 
 - type: page-data
   pageData:
-  - heading: Overview
-    descriptions: |
-      This Registration User Interface (RUI) supports the registration of three-dimensional (3D) tissue blocks within 
-      3D reference organs. A first beta of the CCF RUI became available in October 2020. 3D reference organs are
-      freely available on the HRA Portal in the 
-      <a href="https://humanatlas.io/3d-reference-library">
-      3D Reference Object Library</a>, the ontology can be found on
-      <a href="https://bioportal.bioontology.org/ontologies/CCF">BioPortal</a>, and the code is available on 
-      <a href="https://github.com/hubmapconsortium/ccf-ui">GitHub</a>. The registration data is used in 
-      current versions of the Common Coordinate Framework and on the 
-      <a href="https://hubmapconsortium.github.io/ccf-ui/">Exploration User Interface (EUI)</a> developed within HuBMAP.
+    - heading: Overview
+      descriptions: |
+        This Registration User Interface (RUI) supports the registration of three-dimensional (3D) tissue blocks within 
+        3D reference organs. A first beta of the CCF RUI became available in October 2020. 3D reference organs are
+        freely available on the HRA Portal in the 
+        <a href="https://humanatlas.io/3d-reference-library">
+        3D Reference Object Library</a>, the ontology can be found on
+        <a href="https://bioportal.bioontology.org/ontologies/CCF">BioPortal</a>, and the code is available on 
+        <a href="https://github.com/hubmapconsortium/ccf-ui">GitHub</a>. The registration data is used in 
+        current versions of the Common Coordinate Framework and on the 
+        <a href="https://hubmapconsortium.github.io/ccf-ui/">Exploration User Interface (EUI)</a> developed within HuBMAP.
 
 - type: button
   text: Use the Registration User Interface
@@ -38,8 +38,8 @@
   sopData:
     sopTitle: Standard Operating Procedures (SOP)
     href:
-    - title: ' SOP: Using the Registration User Interface'
-      href: https://doi.org/10.5281/zenodo.5575776
+      - title: ' SOP: Using the Registration User Interface'
+        href: https://doi.org/10.5281/zenodo.5575776
 
 - type: margin
   bottom: 2.5rem
@@ -53,8 +53,8 @@
 
 - type: page-data
   pageData:
-  - heading: How to use the Registration User Interface
-    descriptions: |
+    - heading: How to use the Registration User Interface
+      descriptions: |
         - Enter their name to track data provenance.
         - Select a reference organ via the organ carousel (kidney, heart, spleen, colon).
         - Select a set of common tissue extraction sites.

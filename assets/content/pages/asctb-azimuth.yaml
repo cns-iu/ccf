@@ -8,10 +8,10 @@
 
 - type: announcement
   announcementCard:
-  - message: "The 5th Release of the Human Reference Atlas (v1.4) is now available! See what's new in HRA v1.4 in "
-    route: 'v1.4'
-    routeText: '5th Release Notes.'
-    emoji: '🎉'
+    - message: "The 5th Release of the Human Reference Atlas (v1.4) is now available! See what's new in HRA v1.4 in "
+      route: 'v1.4'
+      routeText: '5th Release Notes.'
+      emoji: '🎉'
 
 - type: margin
   bottom: 2.5rem
@@ -83,25 +83,25 @@
       sorting: false
       alignment: end
     - columnDef: dummyAnnotationLevels
-      header: ""
+      header: ''
       cell: "`${element['dummyAnnotationLevels']}`"
       sorting: false
       alignment: end
     - columnDef: dummyTotalCellCount
-      header: ""
+      header: ''
       cell: "`${element['dummyTotalCellCount']}`"
       sorting: false
       alignment: end
     - columnDef: dummyAzimuthB
-      header: ""
+      header: ''
       cell: "`${element['dummyAzimuthB']}`"
       sorting: false
     - columnDef: dummyAsctbB
-      header: ""
+      header: ''
       cell: "`${element['dummyAsctbB']}`"
       sorting: false
     - columnDef: dummyMatchesB
-      header: ""
+      header: ''
       cell: "`${element['dummyMatchesB']}`"
       sorting: false
   additionalHeaders:
