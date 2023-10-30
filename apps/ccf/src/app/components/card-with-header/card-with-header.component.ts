@@ -1,13 +1,15 @@
 import { Component, Input, inject } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { CardBlock, LongCard } from '../card-button-long/long-card';
+import { Router } from '@angular/router';
+import { CardBlock } from '../card-button-long/long-card';
 
+/** Displays a card to navigate to other pages or external links along with a title */
 @Component({
   selector: 'card-with-header',
   templateUrl: './card-with-header.component.html',
   styleUrls: ['./card-with-header.component.scss'],
 })
 export class CardWithHeaderComponent {
+  /** Title and details to be displayed inside the card */
   @Input() cardBlockData: CardBlock[];
 
   readonly router = inject(Router);
