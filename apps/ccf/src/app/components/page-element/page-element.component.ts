@@ -5,6 +5,7 @@ import { Subscription } from 'rxjs';
 import { LongCard } from '../card-button-long/long-card';
 import { PageDef } from './page-def';
 
+/** Renders a component according to it's type */
 @Component({
   selector: 'page-element',
   templateUrl: './page-element.component.html',
