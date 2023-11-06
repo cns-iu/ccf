@@ -13,5 +13,7 @@ export interface NavItems {
   /** URL of the page to redirect to when clicked on menu item */
   url?: string;
   /** ID of an element for the page to be navigated when clicked on the menu item */
+  id?: string;
+  /** ID of an element for the page to be navigated when clicked on the menu item */
   fragment?: string;
 }
