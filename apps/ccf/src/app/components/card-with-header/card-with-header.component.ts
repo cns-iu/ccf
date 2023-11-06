@@ -12,5 +12,6 @@ export class CardWithHeaderComponent {
   /** Title and details to be displayed inside the card */
   @Input() cardBlockData: CardBlock[];
 
+  /** Reference to the Router */
   readonly router = inject(Router);
 }

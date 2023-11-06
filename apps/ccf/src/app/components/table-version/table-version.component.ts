@@ -23,6 +23,7 @@ import { ChooseVersion } from '../choose-version/choose-version';
 import { ExtraHeader, HeaderData } from '../table/header';
 import { TableData } from '../table/table';
 
+/** Margin to be left when scrolling the table */
 const TABLE_SCROLL_END_MARGIN = 10;
 
 /** Displays the table data according to the selected version */
@@ -52,6 +53,7 @@ export class TableVersionComponent implements OnInit {
     obs.subscribe((val) => (this.tableScrollAtEnd = val));
   }
 
+  /** Adds class scroll-end to the host element when table is scrolled to the right */
   @HostBinding('class.scroll-end') tableScrollAtEnd = false;
 
   /** Details of release and version */
@@ -130,7 +132,7 @@ export class TableVersionComponent implements OnInit {
   constructor(
     private readonly dataService: TableDataService,
     private readonly zone: NgZone
-  ) { }
+  ) {}
 
   /** Sets the table data with default data */
   ngOnInit(): void {

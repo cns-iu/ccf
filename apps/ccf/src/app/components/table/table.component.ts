@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { ExtraHeader, HeaderData } from './header';
 import { TableData } from './table';
 
+/** Displays a table with provided data */
 @Component({
   selector: 'ccf-table',
   templateUrl: './table.component.html',
@@ -16,6 +17,7 @@ export class TableComponent {
     this.dataSource.sort = value;
   }
 
+  /** Flag to check if column is of organ */
   @Input() isOrgan: boolean;
 
   /** Sets the data to the table datasource */

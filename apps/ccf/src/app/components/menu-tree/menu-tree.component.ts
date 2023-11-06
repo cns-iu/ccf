@@ -50,7 +50,7 @@ export class MenuTreeComponent {
     private router: Router,
     private scroller: ViewportScroller,
     private readonly overlay: Overlay
-  ) { }
+  ) {}
 
   /** Checks if current node has children */
   hasChild = (_: number, node: NavItems) =>

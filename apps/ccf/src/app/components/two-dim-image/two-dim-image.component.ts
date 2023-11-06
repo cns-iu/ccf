@@ -1,8 +1,4 @@
-import {
-  Component,
-  Input,
-  TemplateRef,
-} from '@angular/core';
+import { Component, Input, TemplateRef } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { FileDownloadService } from '../../services/file-download/file-download.service';
 import { OrganData } from './two-dim-image';
@@ -27,7 +23,7 @@ export class TwoDimImageComponent {
   constructor(
     private dialog: MatDialog,
     private readonly downloader: FileDownloadService
-  ) { }
+  ) {}
 
   /** Opens a modal with image when large screen size */
   openImageViewer(content: TemplateRef<unknown>): void {
@@ -41,7 +37,7 @@ export class TwoDimImageComponent {
     }
   }
 
-  /** Downloads PNG and SVG */
+  /** Downloads PNG and SVG files */
   downloadClick(event: Event, url: string): void {
     event.preventDefault();
     this.downloader.download(url);

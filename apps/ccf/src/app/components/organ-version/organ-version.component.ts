@@ -61,7 +61,7 @@ export class OrganVersionComponent implements OnInit {
     private router: Router,
     private readonly route: ActivatedRoute,
     private readonly dataService: TableDataService
-  ) { }
+  ) {}
 
   /** Checks if both the strings are equal */
   iCaseEquals(str1: string, str2: string): boolean {
