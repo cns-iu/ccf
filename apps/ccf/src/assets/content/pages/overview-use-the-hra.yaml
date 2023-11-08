@@ -15,14 +15,14 @@
 - type: announcement
   announcementCard:
     - message: "The 6th Release of the Human Reference Atlas (v1.5) is now available! See what's new in "
-      route: 'v1.4'
-      routeText: '5th Release Notes.'
+      route: 'v1.5'
+      routeText: '6th Release Notes.'
       emoji: '🎉'
 
 - type: simple-tile
   description:
-    - title: A <span class="hra-bold">Common Coordinate Framework (CCF)</span> for a human body provides a unique address for each cell in the human body. It is similar to the latitude-longtitude system used to navigate a world map.
-    - title: A <span class="hra-bold">Human Reference Atlas (HRA)</span> is a comprehensive, high-resolution, three-dimensional atlas of all the cells in the healthy human body. The Human Reference Atlas provides standard terminologies and data structures for describing specimens, biological structures, and spatial positions linked to existing ontologies.
+    - title: A **Human Reference Atlas (HRA)** is comprehensive, high-resolution, three-dimensional atlas of all the cells in the healthy human body. The HRA provides standard terminologies and data structures for describing specimens, biological structures, and spatial data linked to existing ontologies.
+    - title: Interested in contributing to the Human Reference Atlas (HRA) effort? Please complete this online form to receive relevant information and meeting invites. For questions, please email infoccf@indiana.edu.
 
 - type: margin
   bottom: 3.5rem
@@ -32,15 +32,15 @@
     - icon: assets/images/improve_cta.svg
       title: Improve Cell Type Annotations
       body: Use the HRA API to improve the accuracy of annotations for bulk and spatial data
-      route: improve-cta
+      route: us/us1
       alt: Improve Cell Type Annotations Icon
     - icon: assets/images/predict_3d_spatial_organs.svg
       title: Predict 3D Spatial Origin of Tissue Samples
       body: Use biomarker expression values to predict the 3-dimensional location of tissue samples
-      route: improve-cta
+      route: us/us2
       alt: Predict 3D Spatial Origin icon
     - icon: assets/images/explore_biomarker_expressions.svg
       title: Explore Biomarker Expressions for Cell Types
       body: Use the Exploration User Interface to examine biomarker expression values
-      route: improve-cta
+      route: us/us3
       alt: Explore Biomarker Expressions for Cell Types Icon

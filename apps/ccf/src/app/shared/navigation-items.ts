@@ -60,11 +60,11 @@ export const NAVIGATION_ITEMS: NavItems[] = [
       {
         menuName: 'Overview: HRA Use Cases',
         route: 'overview-use-the-hra',
-        divider: true
+        divider: true,
       },
       {
         menuName: 'Improve Cell Type Annotations',
-        route: 'us/us1'
+        route: 'us/us1',
       },
       {
         menuName: 'Predict 3D Spatial Origin of Tissue Samples',
@@ -72,9 +72,9 @@ export const NAVIGATION_ITEMS: NavItems[] = [
       },
       {
         menuName: 'Explore Biomarker Expressions for Cell Types',
-        route: 'us/us3'
-      }
-    ]
+        route: 'us/us3',
+      },
+    ],
   },
   {
     menuName: 'Tools',

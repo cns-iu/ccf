@@ -159,6 +159,30 @@ export const ContactCard = z.object({
 });
 
 /**
+ * Array of clipboard data. Each object is defined by a url for the card,
+ * icon name and label for the plain button and url and label for the
+ * dynamic button
+ */
+export const CopyClipboard = z.object({
+  type: z.literal('copy-clipboard'),
+  clipboardData: z
+    .object({
+      url: z.string({
+        description: 'URL/Text to be displayed inside the card',
+      }),
+      plainButton: z.object({
+        icon: z.string({ description: 'Icon name for the button' }),
+        label: z.string({ description: 'Text for the button' }),
+      }),
+      dynamicButton: z.object({
+        label: z.string({ description: 'Text for the button' }),
+        url: z.string({ description: 'External URL for the button' }),
+      }),
+    })
+    .array(),
+});
+
+/**
  * Array of metric cards. Each card is defined by a metric's label, count,
  * and image with it's alternate text.
  */
@@ -876,6 +900,7 @@ export const PageSpec: any = z
     Button,
     CarouselSlides,
     ContactCard,
+    CopyClipboard,
     CountCard,
     Datasets,
     Divider,
