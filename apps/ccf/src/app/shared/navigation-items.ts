@@ -64,15 +64,15 @@ export const NAVIGATION_ITEMS: NavItems[] = [
       },
       {
         menuName: 'Improve Cell Type Annotations',
-        route: 'us/us1',
+        route: 'user-story/1',
       },
       {
         menuName: 'Predict 3D Spatial Origin of Tissue Samples',
-        route: 'us/us2',
+        route: 'user-story/2',
       },
       {
         menuName: 'Explore Biomarker Expressions for Cell Types',
-        route: 'us/us3',
+        route: 'user-story/3',
       },
     ],
   },

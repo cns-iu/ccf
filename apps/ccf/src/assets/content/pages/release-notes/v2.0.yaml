@@ -39,7 +39,7 @@
   headerCard:
     - image: assets/images/4th_release.svg
       title: 6th Release Notes
-      subtitle: See what's new in the 6th Release (v1.5) of the Human Reference Atlas
+      subtitle: See what's new in the 6th Release (v2.0) of the Human Reference Atlas
       alt: 6th Release Notes Icon
 
 - type: drawer

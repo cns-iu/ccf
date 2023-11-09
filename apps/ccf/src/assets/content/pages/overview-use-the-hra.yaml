@@ -15,7 +15,7 @@
 - type: announcement
   announcementCard:
     - message: "The 6th Release of the Human Reference Atlas (v2.0) is now available! See what's new in HRA v2.0 in "
-      route: 'v1.5'
+      route: 'v2.0'
       routeText: '6th Release Notes.'
       emoji: '🎉'
 
@@ -31,15 +31,15 @@
     - icon: assets/images/improve_cta.svg
       title: Improve Cell Type Annotations
       body: Use the HRA API to improve the accuracy of annotations for bulk and spatial data
-      route: us/us1
+      route: user-story/1
       alt: Improve Cell Type Annotations Icon
     - icon: assets/images/predict_3d_spatial_organs.svg
       title: Predict 3D Spatial Origin of Tissue Samples
       body: Use biomarker expression values to predict the 3-dimensional location of tissue samples
-      route: us/us2
+      route: user-story/2
       alt: Predict 3D Spatial Origin icon
     - icon: assets/images/explore_biomarker_expressions.svg
       title: Explore Biomarker Expressions for Cell Types
       body: Use the Exploration User Interface to examine biomarker expression values
-      route: us/us3
+      route: user-story/3
       alt: Explore Biomarker Expressions for Cell Types Icon
