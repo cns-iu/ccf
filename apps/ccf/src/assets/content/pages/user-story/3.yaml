@@ -46,8 +46,8 @@
       text: Use the Exploration User Interface
       url: https://portal.hubmapconsortium.org/ccf-eui
     - type: button
-      text: Use API Demonstration change url
-      url: https://portal.hubmapconsortium.org/ccf-eui
+      text: Use API Demonstration
+      url: https://apps.humanatlas.io/eui/
 
 - type: page-data
   pageData:
