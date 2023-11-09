@@ -6,6 +6,8 @@ export interface CopyClipBoard {
   plainButton: PlainButton;
   /** Details of the dynamic button */
   dynamicButton: ExternalButton;
+  /** Border color for the card */
+  borderColor: string;
 }
 
 /** An interface representing the details of plain button */

@@ -242,6 +242,10 @@
                       "type": "string",
                       "description": "URL/Text to be displayed inside the card"
                     },
+                    "borderColor": {
+                      "type": "string",
+                      "description": "Border color of card according to the request type"
+                    },
                     "plainButton": {
                       "type": "object",
                       "properties": {

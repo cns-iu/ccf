@@ -23,7 +23,7 @@ describe('ContactCardComponent', () => {
     it('should copy the data to the clipboard', async () => {
       const { instance, inject } = await shallow.render();
       const clipboard = inject(Clipboard);
-      instance.copyData('test');
+      instance.copyData('GET: test');
       expect(clipboard.copy).toHaveBeenCalledWith('test');
     });
   });

@@ -1,5 +1,7 @@
 <div class="clipboard-container" *ngFor="let data of clipBoardData">
-  <mat-card class="url-card" id="url">{{ data.url }}</mat-card>
+  <mat-card class="url-card" id="url" [style.border-left]="data.borderColor">{{
+    data.url
+  }}</mat-card>
   <div class="buttons">
     <button mat-raised-button class="copy-btn" (click)="copyData(data.url)">
       <span class="material-symbols-outlined icon">{{

@@ -12,7 +12,7 @@
 
 - type: announcement
   announcementCard:
-    - message: "The 6th Release of the Human Reference Atlas (v1.5) is now available! See what's new in HRA v1.5 in"
+    - message: "The 6th Release of the Human Reference Atlas (v2.0) is now available! See what's new in HRA v2.0 in "
       route: 'v1.5'
       routeText: '6th Release Notes.'
       emoji: '🎉'
@@ -42,7 +42,7 @@
 
 - type: button
   text: Use API Demonstration
-  url: https://portal.hubmapconsortium.org/ccf-eui
+  url: https://apps.humanatlas.io/us1/
 
 - type: page-data
   pageData:
@@ -54,24 +54,18 @@
 
 - type: copy-clipboard
   clipboardData:
-    - url: 'GET: https://api.triplydb.com/queries/bherr/rui-location-counts/1/run'
+    - url: 'POST: https://apps.humanatlas.io/api/ctpop/rui-location-cell-summary'
+      borderColor: solid rgb(101,153,0) 5px
       plainButton:
         icon: content_copy
         label: Copy
       dynamicButton:
-        label: Try Me
-        url: https://www.google.com
-    - url: 'GET: https://api.triplydb.com/queries/bherr/rui-location-counts/1/run'
-      plainButton:
-        icon: content_copy
-        label: Copy
-      dynamicButton:
-        label: Try Me
-        url: https://www.google.com
+        label: Try Me UPDATE URL
+        url: https://apps.humanatlas.io/api/
 
 - type: button
   text: Open API Link
-  url: https://portal.hubmapconsortium.org/ccf-eui
+  url: https://apps.humanatlas.io/api/
 
 - type: page-data
   pageData:
@@ -83,6 +77,7 @@
 
 - type: button
   text: GitHub Repository
-  url: https://portal.hubmapconsortium.org/ccf-eui
+  url: https://github.com/x-atlas-consortia/hra-apps/tree/main/applications/us1-spatial-to-cell
+
   styles:
     margin-bottom: 3.5rem

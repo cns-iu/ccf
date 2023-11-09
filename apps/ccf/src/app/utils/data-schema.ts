@@ -170,6 +170,11 @@ export const CopyClipboard = z.object({
       url: z.string({
         description: 'URL/Text to be displayed inside the card',
       }),
+      borderColor: z
+        .string({
+          description: 'Border color of card according to the request type',
+        })
+        .optional(),
       plainButton: z.object({
         icon: z.string({ description: 'Icon name for the button' }),
         label: z.string({ description: 'Text for the button' }),

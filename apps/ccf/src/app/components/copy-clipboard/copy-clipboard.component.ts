@@ -16,7 +16,9 @@ export class CopyClipboardComponent {
   constructor(private clipboard: Clipboard) {}
 
   /** Copies data inside the card to clipboard */
-  copyData(textToCopy: string) {
-    this.clipboard.copy(textToCopy);
+  copyData(request: string) {
+    const splitted = request.split(' ');
+    const url = splitted[1];
+    this.clipboard.copy(url);
   }
 }
