@@ -57,7 +57,7 @@
         label: Copy
       dynamicButton:
         label: Try Me UPDATE URL
-        url: https://www.google.com
+        url: https://apps.humanatlas.io/api/
 
 - type: button
   text: Open API Link
