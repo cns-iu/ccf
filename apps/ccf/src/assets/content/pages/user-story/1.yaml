@@ -60,8 +60,8 @@
         icon: content_copy
         label: Copy
       dynamicButton:
-        label: Try Me UPDATE URL
-        url: https://apps.humanatlas.io/api/
+        label: Try Me
+        url: https://apps.humanatlas.io/api/#post-/ctpop/rui-location-cell-summary
 
 - type: button
   text: Open API Link

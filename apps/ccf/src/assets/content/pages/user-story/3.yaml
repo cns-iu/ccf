@@ -65,18 +65,18 @@
         label: Copy
       dynamicButton:
         label: Try Me
-        url: https://apps.humanatlas.io/hra-api--staging/#get-/scene
+        url: https://apps.humanatlas.io/hra-api/#get-/scene
     - url: 'GET: https://apps.humanatlas.io/hra-api/v1/tissue-blocks'
       plainButton:
         icon: content_copy
         label: Copy
       dynamicButton:
         label: Try Me
-        url: https://apps.humanatlas.io/hra-api--staging/#get-/tissue-blocks
+        url: https://apps.humanatlas.io/hra-api/#get-/tissue-blocks
 
 - type: button
   text: Open API Link
-  url: https://apps.humanatlas.io/api/
+  url: https://apps.humanatlas.io/hra-api/
 
 - type: page-data
   pageData:

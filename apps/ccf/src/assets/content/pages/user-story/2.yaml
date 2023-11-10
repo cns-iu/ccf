@@ -50,14 +50,14 @@
 
 - type: copy-clipboard
   clipboardData:
-    - url: 'POST: https://apps.humanatlas.io/api/ctpop/cell-summary-rui-location'
+    - url: 'POST: https://apps.humanatlas.io/api/ctpop/cell-summary-report'
       borderColor: solid rgb(101,153,0) 5px
       plainButton:
         icon: content_copy
         label: Copy
       dynamicButton:
-        label: Try Me UPDATE URL
-        url: https://apps.humanatlas.io/api/
+        label: Try Me
+        url: https://apps.humanatlas.io/api/#post-/ctpop/cell-summary-report
 
 - type: button
   text: Open API Link
